@@ -136,6 +136,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "08f7ae73-124c-45c8-8a47-257be478998c": {
+      "type": "product-slideshow",
+      "settings": {
+        "title": "Featured Collection",
+        "collection": "frontpage",
+        "product_count": 4
+      }
     }
   },
   "order": [
@@ -143,6 +151,7 @@
     "778b66ad-6b90-4a59-934b-67ada71dedaa",
     "98e7bf0f-0fe8-4a2c-842d-4e136e58b585",
     "featured_collection",
-    "7bbaafa8-a4e7-461c-b09d-511037b8d5c2"
+    "7bbaafa8-a4e7-461c-b09d-511037b8d5c2",
+    "08f7ae73-124c-45c8-8a47-257be478998c"
   ]
 }
