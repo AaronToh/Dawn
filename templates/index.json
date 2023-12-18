@@ -51,7 +51,7 @@
         "full_width": false,
         "color_scheme": "background-1",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "98e7bf0f-0fe8-4a2c-842d-4e136e58b585": {
@@ -59,7 +59,7 @@
       "settings": {
         "custom_liquid": "<body>\n<h1>Technifbre racquet for sale<\/h1>\n<\/body>",
         "color_scheme": "",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     },
