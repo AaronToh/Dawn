@@ -57,7 +57,7 @@
     "98e7bf0f-0fe8-4a2c-842d-4e136e58b585": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<body>\n\n<\/body>",
+        "custom_liquid": "<body>\n<h1>Technifbre racquet for sale<\/h1>\n<\/body>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
