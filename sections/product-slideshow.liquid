@@ -1,7 +1,7 @@
 {%- capture flickity_options -%}
 {
   "prevNextButtons": true,
-  "pageDots": false,
+  "pageDots": true,
   "contain": true,
   "cellAlign": "left",
   "groupCells": true,
@@ -24,9 +24,8 @@
         <div class="carousel-cell">
           <a href="{{ product.url | within: collection }}">
             <img class="img-explore" src="{{ product.featured_image | img_url: 'master'}}">
-            <h4>{{ product.title }}</h4>
-            <p>{{ product.price | money }}</p>
           </a>
+          <h4>{{ product.title }}</h4>
       </div>  
     {% endfor %}
     </div>
@@ -38,12 +37,27 @@
   padding-right: 55px;
   max-width: 1200px;
   margin: 0 auto;
+  display: block;
 }
 .featured-collection-slider .carousel-cell{
   width:25%;
+  height: 250px;
+  margin-right 5px: 
   padding: 0 15px;
-  display: block;
+  display: block,;
 }
+
+.featured-collection-slider .carousel-cell img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+.featured-collection-slider .carousel-cell , h4{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .flickity-button:disabled{
   pointer-events: all!important;
 }
