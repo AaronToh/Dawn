@@ -39,6 +39,30 @@
         "show_text_below": false
       }
     },
+    "778b66ad-6b90-4a59-934b-67ada71dedaa": {
+      "type": "video",
+      "settings": {
+        "heading": "Technifibre",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/IMG_4570.MOV",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "98e7bf0f-0fe8-4a2c-842d-4e136e58b585": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<body>\n\n<\/body>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -66,10 +90,59 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "7bbaafa8-a4e7-461c-b09d-511037b8d5c2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21842121457975__7bbaafa8-a4e7-461c-b09d-511037b8d5c2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--21842121457975__7bbaafa8-a4e7-461c-b09d-511037b8d5c2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21842121457975__7bbaafa8-a4e7-461c-b09d-511037b8d5c2-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21842121457975__7bbaafa8-a4e7-461c-b09d-511037b8d5c2-heading-1",
+        "template--21842121457975__7bbaafa8-a4e7-461c-b09d-511037b8d5c2-text-1",
+        "template--21842121457975__7bbaafa8-a4e7-461c-b09d-511037b8d5c2-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "778b66ad-6b90-4a59-934b-67ada71dedaa",
+    "98e7bf0f-0fe8-4a2c-842d-4e136e58b585",
+    "featured_collection",
+    "7bbaafa8-a4e7-461c-b09d-511037b8d5c2"
   ]
 }
